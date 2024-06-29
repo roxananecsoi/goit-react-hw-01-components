@@ -1,0 +1,100 @@
+.profile {
+  background-color: rgba(254, 254, 255, 0.63);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 280px;
+}
+
+.description {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  border-radius: 30%;
+  max-width: 100px;
+  margin-top: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.avatar:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.name {
+  color: rgb(138, 108, 223);
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.name:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.tag {
+  color: rgb(86, 162, 233);
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tag:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.location {
+  color: rgb(223, 114, 204);
+  padding-bottom: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.location:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.stats {
+  background-color: rgb(253, 234, 253);
+  display: flex;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.statsElement {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border-top: 1px solid lightgray;
+  padding: 20px 0;
+}
+
+.statsElement:hover {
+  cursor: pointer;
+}
+
+.statsElement:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+
+.label {
+  color: rgb(79, 1, 110);
+  transition: transform 0.3s ease-in-out;
+}
+
+.quantity {
+  color: rgb(134, 129, 211);
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+.quantity:hover {
+  color: rgb(208, 80, 219);
+  cursor: pointer;
+  transform: scale(1.1);
+}

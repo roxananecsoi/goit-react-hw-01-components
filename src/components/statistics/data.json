@@ -1,0 +1,7 @@
+[
+  { "id": "id-1", "label": ".docx", "percentage": 27 },
+  { "id": "id-2", "label": ".xlsx", "percentage": 3 },
+  { "id": "id-3", "label": ".pdf", "percentage": 15 },
+  { "id": "id-4", "label": ".mp3", "percentage": 38 },
+  { "id": "id-5", "label": ".mp4", "percentage": 17 }
+]
